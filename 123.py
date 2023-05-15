@@ -2,7 +2,7 @@ import os
 import shutil
 from pathlib import Path
 import pandas as pd
-
+#456465
 source_dir = "F:/Data/Sewer"
 destination_dir = "F:/Data/New"
 csv_file = os.path.join(source_dir, "SewerML_Train.csv")
