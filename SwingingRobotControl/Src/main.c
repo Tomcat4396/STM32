@@ -59,7 +59,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 // Button shake supperession
 	if(GPIO_Pin == GPIO_PIN_3)
 	{
-		HAL_Delay(100);
+		HAL_Delay(1000);
 //		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_5);
 		if(GPIO_Pin == GPIO_PIN_3)
 		{
