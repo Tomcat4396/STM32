@@ -1,0 +1,33 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "sensor.h": "c",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "ms5837.h": "c",
+        "sys.h": "c",
+        "sbus.h": "c",
+        "timer.h": "c",
+        "position_pid.h": "c",
+        "attitude_pid.h": "c",
+        "queue": "c",
+        "stabilizer.h": "c",
+        "stm32f7xx.h": "c",
+        "stdbool.h": "c",
+        "jy901_reg.h": "c",
+        "jy901_iic.h": "c",
+        "iwdg.h": "c",
+        "usart.h": "c",
+        "pid.h": "c",
+        "pwm_control.h": "c",
+        "new": "c",
+        "array": "c",
+        "transmission.h": "c",
+        "delay.h": "c",
+        "stmflash.h": "c",
+        "cmath": "c",
+        "adc.h": "c",
+        "motor.h": "c"
+    }
+}

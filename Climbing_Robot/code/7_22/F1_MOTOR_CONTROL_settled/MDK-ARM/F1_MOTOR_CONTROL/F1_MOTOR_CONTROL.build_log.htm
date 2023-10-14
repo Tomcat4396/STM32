@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 SeeYou, 1, LIC=50DRA-15S9P-21YPS-LGE7V-QF687-DMIRC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+F:\onedrive\OneDrive - yourdrive\Code\cube\7_22\F1_MOTOR_CONTROL_settled\MDK-ARM\F1_MOTOR_CONTROL.uvprojx
+Project File Date:  07/22/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'F1_MOTOR_CONTROL'
+compiling main.c...
+../Core/Src/main.c(44): warning:  #177-D: variable "len"  was declared but never referenced
+  	int len=0;
+../Core/Src/main.c(45): warning:  #177-D: variable "spd_set"  was declared but never referenced
+  	int spd_set=0;
+../Core/Src/main.c(46): warning:  #177-D: variable "spd_target"  was declared but never referenced
+  	int spd_target=0;
+../Core/Src/main.c(47): warning:  #177-D: variable "speed"  was declared but never referenced
+  	int16_t speed=0,pos=0;
+../Core/Src/main.c(47): warning:  #177-D: variable "pos"  was declared but never referenced
+  	int16_t speed=0,pos=0;
+../Core/Src/main.c(48): warning:  #177-D: variable "tem"  was declared but never referenced
+  	u8 tem=0;
+../Core/Src/main.c(70): warning:  #177-D: variable "last_time"  was declared but never referenced
+  	uint32_t last_time=0;
+../Core/Src/main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=8678 RO-data=362 RW-data=48 ZI-data=2272  
+FromELF: creating hex file...
+"F1_MOTOR_CONTROL\F1_MOTOR_CONTROL.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM::CMSIS:CORE:5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_F1_MOTOR_CONTROL
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

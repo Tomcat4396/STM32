@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"swingingrobotcontrol\startup_stm32f103xe.o"
+"swingingrobotcontrol\main.o"
+"swingingrobotcontrol\gpio.o"
+"swingingrobotcontrol\tim.o"
+"swingingrobotcontrol\stm32f1xx_it.o"
+"swingingrobotcontrol\stm32f1xx_hal_msp.o"
+"swingingrobotcontrol\stm32f1xx_hal_gpio_ex.o"
+"swingingrobotcontrol\stm32f1xx_hal_tim.o"
+"swingingrobotcontrol\stm32f1xx_hal_tim_ex.o"
+"swingingrobotcontrol\stm32f1xx_hal.o"
+"swingingrobotcontrol\stm32f1xx_hal_rcc.o"
+"swingingrobotcontrol\stm32f1xx_hal_rcc_ex.o"
+"swingingrobotcontrol\stm32f1xx_hal_gpio.o"
+"swingingrobotcontrol\stm32f1xx_hal_dma.o"
+"swingingrobotcontrol\stm32f1xx_hal_cortex.o"
+"swingingrobotcontrol\stm32f1xx_hal_pwr.o"
+"swingingrobotcontrol\stm32f1xx_hal_flash.o"
+"swingingrobotcontrol\stm32f1xx_hal_flash_ex.o"
+"swingingrobotcontrol\stm32f1xx_hal_exti.o"
+"swingingrobotcontrol\system_stm32f1xx.o"
+--strict --scatter "SwingingRobotControl\SwingingRobotControl.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SwingingRobotControl.map" -o SwingingRobotControl\SwingingRobotControl.axf

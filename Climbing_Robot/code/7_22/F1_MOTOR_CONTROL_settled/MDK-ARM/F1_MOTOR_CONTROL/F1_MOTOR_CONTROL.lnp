@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"f1_motor_control\startup_stm32f103xe.o"
+"f1_motor_control\main.o"
+"f1_motor_control\stm32f1xx_it.o"
+"f1_motor_control\stm32f1xx_hal_msp.o"
+"f1_motor_control\stm32f1xx_hal_gpio_ex.o"
+"f1_motor_control\stm32f1xx_hal_can.o"
+"f1_motor_control\stm32f1xx_hal.o"
+"f1_motor_control\stm32f1xx_hal_rcc.o"
+"f1_motor_control\stm32f1xx_hal_rcc_ex.o"
+"f1_motor_control\stm32f1xx_hal_gpio.o"
+"f1_motor_control\stm32f1xx_hal_dma.o"
+"f1_motor_control\stm32f1xx_hal_cortex.o"
+"f1_motor_control\stm32f1xx_hal_pwr.o"
+"f1_motor_control\stm32f1xx_hal_flash.o"
+"f1_motor_control\stm32f1xx_hal_flash_ex.o"
+"f1_motor_control\stm32f1xx_hal_exti.o"
+"f1_motor_control\stm32f1xx_hal_tim.o"
+"f1_motor_control\stm32f1xx_hal_tim_ex.o"
+"f1_motor_control\stm32f1xx_hal_uart.o"
+"f1_motor_control\system_stm32f1xx.o"
+"f1_motor_control\bsp_can.o"
+"f1_motor_control\pid.o"
+"f1_motor_control\usart.o"
+--strict --scatter "F1_MOTOR_CONTROL\F1_MOTOR_CONTROL.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "F1_MOTOR_CONTROL.map" -o F1_MOTOR_CONTROL\F1_MOTOR_CONTROL.axf
